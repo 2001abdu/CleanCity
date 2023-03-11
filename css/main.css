@@ -1181,12 +1181,422 @@ a {
     letter-spacing: 1px;
 }
 
+/* new section  */
+.new__section{
+    background-color: #fff;
+    padding: 10px;
+}
+.new__section-text{
+    padding: 0 50px;
+}
+.news__time-text{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.news__time-text h3{
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #666666;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+}
+.news__time-text h3::before{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 4px;
+    margin-top: 50px;
+    background-color: #A9BF04;
+    margin-bottom: 50px;
+}
+.news__time-text h3 span{
+    color: #A9BF55;
+}
+.new__time-items{
+    display: block;
+    width: 400px;
+    margin-bottom: 30px;
+    border: 1px solid #666666;
+    border-radius: 0 0 10px 10px;
+}
+.news__time-img a{
+    display: inline-block;
+    border-bottom: 5px solid #A9BF04;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 0;
+}
+.news__time-img a img{
+    display: block;
+    width: 401px;
+    /* width: 100%;     */
+    justify-content: center;
+    object-fit: cover;
+    align-items: center;
+}
+.news__time-img{
+    position: relative;
+    margin-bottom: 0;
+}
+.news__time-img span{
+    position: absolute;
+    top: 145px;
+    left: 20px;
+    border: 2px solid #A9BF04;
+    width: 40px;
+    height: 50px;
+    background-color: #A9BF04;
+    padding: 5px;
+    border-radius: 25px 25px 0 0;
+    cursor: pointer;
+}
+.news__time-img span i{
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #fff;
+}
+.news__text{
+    padding: 20px;
+    background-color: #F5F5F5;
+    margin-top: -4px;
+    /* margin-bottom: 20px; */
+}
+.news__descreption .news__text .ilova{
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    color: #A9BF1B;
+}
+.news__text .post-meta{
+    margin-left: -40px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.post-meta .meta-user{
+    list-style: none;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #8b8585;
+    font-family: 'Raleway', sans-serif;
+}
+.meta-user i{
+    margin-right: 3px;
+    font-size: 16px;
+    color: #8b8585;
+}
+.meta-user .admins{
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: #8b8585;
+}
+.news__text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: #8b8585;
+    margin-top: 25px;
+}
+.bottom_tools{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #F0F0F0;
+    padding: 15px;
+    border-radius: 0 0 10px 10px;
+}
+.bottom_tools a{
+    border: 1px solid #000;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -1spx;
+    font-family: 'Raleway', sans-serif;
+    background-color: #fff;
+    color: #666666;
+    border-radius: 3px;
+}
+
+/* section__inspekt */
+.section__inspekt::before{
+    position: absolute;
+    content: "";
+    background-color: #F1F1F1;
+    width: 100%;
+    height: 100px;
+    margin-top: -110px;
+}
+.section__inspekt{
+    background-color: #666666;
+    padding: 10px 0;
+    margin-top: 100px;
+}
+.inspekt__title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inspekt__java .cta__java{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    margin-bottom: 2px;
+}
+.inspekt__java .cta__java span{
+    color: #A9BF04;
+}
+.inspekt__java .cta__java2{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    margin-top: 15px;
+}
+.inspekt__button{
+    display: flex;
+    justify-content: space-between;
+}
+.inspekt__button a{
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    border-radius: 8px;
+}
+.inspekt__button .btn1:hover{
+    background-color: #000;
+    border: 2px solid #000;
+}
+.inspekt__button a span{
+    display: block;
+    text-align: center;
+}
+.inspekt__button a .play__save{
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5px;
+}
+.play__text{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+.inspekt__button .btn2:hover{
+    background-color: #798b04;
+    border: 2px solid #fff;
+}
+.btn2{
+    background-color: #A9BF04;
+}
+.btn2 .android__icon{
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 1px 2px #000;
+}
+.android__icon i{
+    font-size: 25px;
+}
+
+/* site__section-login */
+.site__section-login{
+    background-color: #fff;
+    padding: 10px;
+}
+.site__login{
+    margin-top: 100px;
+}
+.site__login-desc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+.site__login-desc .sub-title{
+    display: flex;
+    margin: 5px auto;
+    font-size: 35px;
+    color: #A9BF04;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+.site__login-desc .sub-heading{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: #666666;
+}
+.site__login-desc{
+    border-bottom: 2px solid #666666;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.login__title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 50px;
+}
+.user__name{
+    margin-bottom: 30px;
+}
+.user__name .main-color{
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #A9BF04;
+    font-family: 'Raleway', sans-serif;
+}
+.input__name{
+    border: 1px solid #000;
+    padding: 5px 8px;
+    margin-top: 10px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.input__name span{
+    transform: rotateY(180deg);
+    margin-right: 10px;
+    color: #A9BF04;
+    font-size: 18px;
+}
+.input__name input{
+    display: flex;
+    width: 100%;
+    border: none;
+    padding: 5px;
+    outline: none;
+}
+.boxShadow{
+    box-shadow: 1px 0px 5px 3px #666666;
+}
+.input__name textarea{
+    border: none;
+    outline: none;
+}
+.form-input{
+    width: 92%;
+    border: 2px solid #fff;
+    padding: 15px 5px;
+    align-items: center;
+    margin: 20px auto;
+    border-radius: 8px;
+    background-color: #A9BF04;
+    cursor: pointer;
+}
+.form-input:hover{
+    background-color: #798b04;
+    transition: all 0.5s ease;
+}
+.form-input a{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 3px 2px 3px #000;
+}
+
+/* news__section */
+.news__section{
+    background-color: #A9BF04;
+    padding: 10px 0;
+}
+.news__iteam{
+    margin-left: 40px;
+}
+.news__iteam-title label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 1px 2px 1px #000;
+    letter-spacing: 1px;
+}
+.news__input input{
+    width: calc(100% - 180px);
+    padding: 10px 15px;
+    outline: none;
+    border: 2px solid #000;
+    border-top-right-radius: 1.2em;
+    border-bottom-left-radius: 1.2em;
+    font-size: 13px;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.news__input input:focus{
+    box-shadow: 2px 1px 1px 1px #000;
+    border: 1px solid #fff;
+}
+.news__input a{
+    border: 1px solid #444;
+    padding: 10px 15px;
+    border-top-right-radius: 1.2em;
+    border-bottom-left-radius: 1em;
+    position: absolute;
+    right: 150px;
+    background-color: #444444;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
 
 
 
 
-
-
+/* .site__footer */
+.site__footer{
+    background: url("https://cleancity.uz/assets/images/footer-bg.jpg") center center/cover;
+    background-repeat: no-repeat;
+    height: 320px;
+}
+.footer__nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.footer__logo{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer__logo p{
+   color: #fff;
+}
 
 
 

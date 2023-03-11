@@ -55,6 +55,23 @@ mainLeft.addEventListener("click", () =>{
         count = addImg-1;
     }
     cleanImg[count].classList.add("active");
+});
+
+let input=document.querySelector("input");
+let inputName=document.querySelectorAll(".input__name");
+count=0;
+
+console.log(inputName);
+
+input.addEventListener("click", () =>{
+    for(let i=0; i<inputName.length-4; i++){
+        inputName[count].classList.add("boxShadow");
+        if(count<inputName.length-1){
+            count++;
+        }else{
+            count=0;
+        }
+    }
 })
 
 
